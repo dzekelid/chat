@@ -39,7 +39,7 @@ apis:
   tags: Chat
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/chat/master/_listings/slack/users-setpresence-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/chat/master/_listings/slack/stars-remove-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
