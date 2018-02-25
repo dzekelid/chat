@@ -27,7 +27,7 @@ apis:
   tags: Chat
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/chat/master/_listings/yammer/yamuri-users-user-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/chat/master/_listings/yammer/yamuri-messages-algo-json-get.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
