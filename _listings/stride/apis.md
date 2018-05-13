@@ -25,9 +25,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/chat/master/_listings/stride/app-module-chat-conversation-chat-glance-key-state-post.md
-- name: Stride Send app configuration updates
+- name: Stride Send glance updates
   description: |-
-    Post app configuration updates telling the.
+    Post glance updates which will be pushed for all users within the specified context.
 
     Authentication required.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
@@ -36,7 +36,7 @@ apis:
   tags: Chat
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/stride/app-module-chat-conversation-chat-configuration-key-state-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/stride/app-module-chat-conversation-chat-glance-key-state-post.md
 x-common:
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
