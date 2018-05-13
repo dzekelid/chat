@@ -25,7 +25,39 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/chat/master/_listings/stride/app-module-chat-conversation-chat-glance-key-state-post.md
+- name: Stride Send app configuration updates
+  description: |-
+    Post app configuration updates telling the.
+
+    Authentication required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
+  humanURL: https://www.stride.com/
+  baseURL: https://api.atlassian.com//
+  tags: Chat
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/stride/app-module-chat-conversation-chat-configuration-key-state-post.md
 x-common:
+- type: x-authentication
+  url: https://developer.atlassian.com/cloud/stride/security/authentication/
+- type: x-blog
+  url: https://blog.stride.com/
+- type: x-buttons
+  url: https://developer.atlassian.com/cloud/stride/blocks/stride-button/
+- type: x-developer
+  url: https://developer.atlassian.com/cloud/stride/
+- type: x-getting-started
+  url: https://developer.atlassian.com/cloud/stride/getting-started/
+- type: x-pricing
+  url: https://www.stride.com/pricing
+- type: x-security
+  url: https://developer.atlassian.com/cloud/stride/security/security-overview/
+- type: x-support
+  url: https://www.stride.com/help-center
+- type: x-twitter
+  url: https://twitter.com/atlassianstride
+- type: x-website
+  url: https://www.stride.com/
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
 - type: x-blog
