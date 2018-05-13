@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stride
-  description: This service provides public API for the Stride.
+  title: Stride Send app configuration updates
+  description: |-
+    Post app configuration updates telling the.
+
+    Authentication required.
   version: 1.0.0
 host: api.atlassian.com
 basePath: /
