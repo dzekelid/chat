@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stride
-  description: This service provides public API for the Stride.
+  title: Stride Send glance updates
+  description: |-
+    Post glance updates which will be pushed for all users within the specified context.
+
+    Authentication required.
   version: 1.0.0
 host: api.atlassian.com
 basePath: /
