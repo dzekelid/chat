@@ -17,17 +17,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Delete Live Chat Moderators
-  description: Delete livechat moderators
+- name: Youtube Get Live Chat Moderators
+  description: Lists moderators for a live chat.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Chat
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
