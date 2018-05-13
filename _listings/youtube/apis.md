@@ -28,15 +28,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-parameters.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-parameters-postman.md
-- name: Youtube Add Live Chat Moderators
-  description: Adds a new moderator for the chat.
+- name: Youtube Get Superchatevents
+  description: Lists Super Chat events for a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Chat
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/livechat-moderators-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/superchatevents-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/chat/master/_listings/youtube/superchatevents-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
